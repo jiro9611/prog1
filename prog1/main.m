@@ -47,12 +47,14 @@
 int main (int argc, char * argv[])
 {
     @autoreleasepool {
-        Fraction *myFraction;
+        // Fraction *myFraction;
         
         // Create an instance of a Fraction
         
-        myFraction = [Fraction alloc];
-        myFraction = [myFraction init];
+        // myFraction = [Fraction alloc];
+        // myFraction = [myFraction init];
+        
+        Fraction *myFraction = [[Fraction alloc] init];
         
         // Set fraction to 1/3
         
